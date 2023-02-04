@@ -1,0 +1,94 @@
+body {
+    background-color: aqua;
+}
+.sp {
+    margin: 10px;
+    padding: 20px;
+    height: fit-content;
+    width: fit-content;
+    background-color: white;
+    border-radius: 25px;
+}
+.sp1 {
+}
+.sp11 {
+}
+.sp11 h1 {
+    position: absolute;
+    background: blue;
+    width: fit-content;
+    padding: 10px 20px;
+    border-radius: 5px;
+    color: white;
+    font-size: small;
+}
+.none {
+    display: none;
+}
+.sp12 {
+    padding: 23px 200px;
+    display: none;
+    align-items: flex-end;
+    flex-direction: column;
+    align-content: center;
+    justify-content: center;
+    flex-wrap: nowrap;
+    position: absolute;
+}
+.sp12 a {
+    margin: 10px 0px;
+    color: black;
+    text-decoration: none;
+}
+.sp12 a span {
+}
+.sp12 span {
+    padding: 10px;
+    margin: 10px;
+    background-color: white;
+    border-radius: 100px;
+    font-size: medium;
+}
+.sp13 {
+}
+.sp13 img {
+    height: auto;
+    width: 250px;
+}
+.sp2 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    align-content: center;
+    flex-direction: column;
+    flex-wrap: nowrap;
+}
+.sp2 h1 {
+    font-size: x-large;
+}
+.sp21 {
+    color: #2a27e9;
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+    align-content: center;
+    flex-wrap: nowrap;
+    flex-direction: row;
+}
+.sp21 h1 {
+    color: #2a27e9;
+    text-decoration: line-through 2px;
+    font-size: large;
+    margin: 0px 0px;
+}
+.sp21 h2 {
+    color: #2a27e9;
+    font-size: x-large;
+    margin: 0px 0px;
+}
+.sp:hover .sp12 {
+    display: flex;
+}
+.sp12 span:hover {
+    color: blue;
+}
