@@ -984,8 +984,9 @@
         flex-direction: column;
         display: flex;
         justify-content: flex-start;
-        align-items: flex-start;
+        align-items: center;
         align-content: flex-start;
+        flex-wrap: nowrap;
     }
     .bqx111 h1 {
         width: 230%;
